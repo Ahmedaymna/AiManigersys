@@ -1,5 +1,7 @@
 package com.aiphoneguardian.app.domain.repository
 
+import com.aiphoneguardian.app.domain.model.NetworkConnection
+import com.aiphoneguardian.app.domain.model.SystemStatus
 import kotlinx.coroutines.flow.Flow
 
 interface SystemMonitorRepository {

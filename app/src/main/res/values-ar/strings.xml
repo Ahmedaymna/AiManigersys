@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AI Phone Guardian</string>
+
+    <!-- Auth -->
+    <string name="welcome_back">مرحباً بعودتك</string>
+    <string name="create_account">إنشاء حساب</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="password">كلمة المرور</string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="register">إنشاء حساب</string>
+    <string name="forgot_password">نسيت كلمة المرور؟</string>
+    <string name="reset_password">إعادة تعيين كلمة المرور</string>
+    <string name="continue_guest">المتابعة كضيف</string>
+    <string name="use_biometric">استخدم بصمة الإصبع</string>
+    <string name="or">أو</string>
+    <string name="no_account">ليس لديك حساب؟</string>
+    <string name="has_account">لديك حساب بالفعل؟</string>
+    <string name="password_reset_sent">تم إرسال بريد إعادة تعيين كلمة المرور!</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_scan">فحص</string>
+    <string name="nav_files">الملفات</string>
+    <string name="nav_chat">AI مساعد</string>
+    <string name="nav_settings">الإعدادات</string>
+
+    <!-- Dashboard -->
+    <string name="ai_guardian_active">الحارس الذكي نشط</string>
+    <string name="system_status">حالة النظام</string>
+    <string name="safe">آمن</string>
+    <string name="warning">تحذير</string>
+    <string name="critical">حرج</string>
+    <string name="files_scanned">الملفات المفحوصة</string>
+    <string name="threats_blocked">التهديدات المحجوبة</string>
+    <string name="last_scan">آخر فحص</string>
+    <string name="cpu_usage">استخدام المعالج</string>
+    <string name="ram_usage">استخدام الذاكرة</string>
+    <string name="battery">البطارية</string>
+    <string name="quick_scan">فحص سريع</string>
+    <string name="full_scan">فحص شامل</string>
+    <string name="recent_alerts">التنبيهات الأخيرة</string>
+    <string name="view_all">عرض الكل</string>
+    <string name="real_time_protection">الحماية في الوقت الحقيقي</string>
+    <string name="enabled">مفعل</string>
+    <string name="disabled">معطل</string>
+
+    <!-- Scanner -->
+    <string name="scanning_system">جاري فحص النظام...</string>
+    <string name="scan_apps">جاري فحص التطبيقات</string>
+    <string name="scan_files">جاري فحص الملفات</string>
+    <string name="scan_processes">جاري فحص العمليات</string>
+    <string name="scan_network">جاري فحص الشبكة</string>
+    <string name="scan_ai_analyzing">الذكاء الاصطناعي يحلل النتائج...</string>
+    <string name="scan_complete">اكتمل الفحص</string>
+    <string name="threats_found">تهديدات تم العثور عليها</string>
+    <string name="system_clean">النظام نظيف!</string>
+    <string name="export_pdf">تصدير تقرير PDF</string>
+    <string name="fix_all">إصلاح جميع المشاكل</string>
+    <string name="scanning_app">جاري فحص: %1$s</string>
+    <string name="scan_progress">%1$d%%</string>
+
+    <!-- Threat Levels -->
+    <string name="threat_safe">آمن</string>
+    <string name="threat_suspicious">مشبوه</string>
+    <string name="threat_dangerous">خطير</string>
+    <string name="threat_details">تفاصيل التهديد</string>
+    <string name="threat_recommendation">التوصية</string>
+
+    <!-- File Guardian -->
+    <string name="file_guardian">حارس الملفات</string>
+    <string name="browse_files">تصفح الملفات</string>
+    <string name="analyze_file">تحليل الملف</string>
+    <string name="mark_trusted">وضع علامة موثوق</string>
+    <string name="mark_suspicious">وضع علامة مشبوه</string>
+    <string name="quarantine">حجر صحي</string>
+    <string name="remove_from_quarantine">استعادة من الحجر</string>
+    <string name="file_quarantined">تم نقل الملف إلى الحجر الصحي</string>
+    <string name="ai_file_analysis">تحليل الملف بالذكاء الاصطناعي</string>
+    <string name="analyzing_file">جاري تحليل الملف...</string>
+    <string name="file_safe">هذا الملف يبدو آمناً</string>
+    <string name="file_suspicious">هذا الملف يبدو مشبوهاً</string>
+
+    <!-- Network Monitor -->
+    <string name="network_monitor">مراقب الشبكة</string>
+    <string name="active_connections">الاتصالات النشطة</string>
+    <string name="upload_speed">الرفع: %1$s/ث</string>
+    <string name="download_speed">التحميل: %1$s/ث</string>
+    <string name="suspicious_connection">اتصال مشبوه</string>
+    <string name="block_connection">حظر الاتصال</string>
+    <string name="vpn_recommended">يوصى باستخدام VPN</string>
+    <string name="unknown_location">موقع غير معروف</string>
+
+    <!-- AI Chat -->
+    <string name="ai_assistant">مساعد الأمن الذكي</string>
+    <string name="type_message">اكتب رسالة...</string>
+    <string name="ai_typing">الذكاء الاصطناعي يكتب...</string>
+    <string name="chat_limit_reached">تم الوصول للحد اليومي. ترقية إلى البريميوم!</string>
+    <string name="chat_history">سجل المحادثات</string>
+
+    <!-- Settings -->
+    <string name="settings">الإعدادات</string>
+    <string name="dark_theme">الوضع الداكن</string>
+    <string name="light_theme">الوضع الفاتح</string>
+    <string name="notifications">الإشعارات</string>
+    <string name="scan_schedule">جدولة الفحص</string>
+    <string name="daily">يومي</string>
+    <string name="weekly">أسبوعي</string>
+    <string name="language">اللغة</string>
+    <string name="english">English</string>
+    <string name="arabic">العربية</string>
+    <string name="account">الحساب</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="about">حول التطبيق</string>
+    <string name="version">الإصدار %1$s</string>
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="terms_of_service">شروط الخدمة</string>
+    <string name="premium_features">مميزات البريميوم</string>
+
+    <!-- Premium -->
+    <string name="upgrade_to_premium">الترقية إلى البريميوم</string>
+    <string name="premium_title">فتح الحماية الكاملة</string>
+    <string name="premium_subtitle">احصل على أمان غير محدود بالذكاء الاصطناعي</string>
+    <string name="feature_unlimited_scans">فحص نظام غير محدود</string>
+    <string name="feature_unlimited_chat">محادثة ذكاء اصطناعي غير محدودة</string>
+    <string name="feature_file_guardian">وصول كامل لحارس الملفات</string>
+    <string name="feature_network_monitor">وصول كامل لمراقب الشبكة</string>
+    <string name="feature_pdf_export">تصدير تقارير PDF</string>
+    <string name="feature_no_ads">بدون إعلانات</string>
+    <string name="feature_priority_detection">كشف تهديدات أولوي</string>
+    <string name="free">مجاني</string>
+    <string name="premium">بريميوم</string>
+    <string name="upgrade_now">الترقية الآن</string>
+    <string name="premium_info">تواصل معنا على واتساب لتفعيل البريميوم</string>
+    <string name="enter_activation_code">أدخل رمز التفعيل</string>
+    <string name="activate">تفعيل</string>
+    <string name="activation_success">تم تفعيل البريميوم بنجاح!</string>
+    <string name="activation_failed">رمز التفعيل غير صحيح. حاول مرة أخرى.</string>
+
+    <!-- Notifications -->
+    <string name="threat_detected">تم اكتشاف تهديد!</string>
+    <string name="threat_notification_text">%1$s - الخطورة: %2$s</string>
+    <string name="fix_now">إصلاح الآن</string>
+    <string name="dismiss">تجاهل</string>
+    <string name="guardian_running">الحارس يحمي جهازك</string>
+    <string name="channel_threats">تنبيهات التهديدات</string>
+    <string name="channel_guardian">خدمة الحارس</string>
+    <string name="channel_general">إشعارات عامة</string>
+
+    <!-- Ads -->
+    <string name="watch_ad">مشاهدة إعلان</string>
+    <string name="watch_ad_for_chat">شاهد إعلاناً لرسالة AI إضافية</string>
+    <string name="ad_loading">جاري تحميل الإعلان...</string>
+
+    <!-- Errors -->
+    <string name="error_generic">حدث خطأ. يرجى المحاولة مرة أخرى.</string>
+    <string name="error_network">خطأ في الشبكة. تحقق من اتصالك.</string>
+    <string name="error_permission_denied">تم رفض الإذن. منح الإذن من الإعدادات.</string>
+    <string name="error_no_files_access">لا يمكن الوصول للملفات بدون إذن.</string>
+
+    <!-- Time -->
+    <string name="just_now">الآن</string>
+    <string name="minutes_ago">منذ %1$d دقيقة</string>
+    <string name="hours_ago">منذ %1$d ساعة</string>
+    <string name="never">أبداً</string>
+</resources>

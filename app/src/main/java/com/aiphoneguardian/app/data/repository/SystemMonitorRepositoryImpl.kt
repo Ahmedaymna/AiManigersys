@@ -12,8 +12,8 @@ import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.core.booleanPreferencesKey
 import androidx.datastore.preferences.core.edit
-import com.aiphoneguardian.app.domain.model.AppInfo
-import com.aiphoneguardian.app.domain.model.BatteryInfo
+import com.aiphoneguardian.app.domain.repository.AppInfo
+import com.aiphoneguardian.app.domain.repository.BatteryInfo
 import com.aiphoneguardian.app.domain.model.ConnectionState
 import com.aiphoneguardian.app.domain.model.ConnectionType
 import com.aiphoneguardian.app.domain.model.NetworkConnection

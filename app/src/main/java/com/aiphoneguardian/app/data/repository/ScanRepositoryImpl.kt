@@ -151,7 +151,7 @@ class ScanRepositoryImpl @Inject constructor(
     private fun hasSuspiciousPermissions(pm: PackageManager, packageName: String): Boolean {
         return try {
             val permissions = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
-                pm.getPackageInfo(packageName, PackageManager.PackageInfoFlags.of(PackageManager.GET_PERMISSIONS))
+                pm.getPackageInfo(packageName, PackageManager.PackageInfoFlags.of(PackageManager.GET_PERMISSIONS.toLong()))
             } else {
                 pm.getPackageInfo(packageName, PackageManager.GET_PERMISSIONS)
             }?.requestedPermissions ?: return false

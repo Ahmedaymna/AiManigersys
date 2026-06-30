@@ -4,7 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.aiphoneguardian.app.domain.model.NetworkConnection
 import com.aiphoneguardian.app.domain.model.NetworkStatus
-import com.aiphoneguardian.app.domain.model.SystemMonitorRepository
+import com.aiphoneguardian.app.domain.repository.SystemMonitorRepository
 import com.aiphoneguardian.app.domain.model.UserTier
 import com.aiphoneguardian.app.domain.repository.SubscriptionRepository
 import dagger.hilt.android.lifecycle.HiltViewModel

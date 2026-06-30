@@ -4,7 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.aiphoneguardian.app.domain.model.*
 import com.aiphoneguardian.app.domain.model.ScanRepository
-import com.aiphoneguardian.app.domain.model.SystemMonitorRepository
+import com.aiphoneguardian.app.domain.repository.SystemMonitorRepository
 import com.aiphoneguardian.app.domain.repository.SettingsRepository
 import com.aiphoneguardian.app.domain.repository.SubscriptionRepository
 import com.aiphoneguardian.app.ui.screens.dashboard.AlertItem

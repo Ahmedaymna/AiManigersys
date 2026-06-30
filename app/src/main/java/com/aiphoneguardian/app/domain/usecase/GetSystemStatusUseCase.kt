@@ -1,6 +1,6 @@
 package com.aiphoneguardian.app.domain.usecase
 
-import com.aiphoneguardian.app.domain.model.SystemMonitorRepository
+import com.aiphoneguardian.app.domain.repository.SystemMonitorRepository
 import com.aiphoneguardian.app.domain.model.SystemStatus
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject

@@ -1,6 +1,6 @@
 package com.aiphoneguardian.app.domain.usecase
 
-import com.aiphoneguardian.app.domain.model.ScanRepository
+import com.aiphoneguardian.app.domain.repository.ScanRepository
 import com.aiphoneguardian.app.domain.model.ScanResult
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject

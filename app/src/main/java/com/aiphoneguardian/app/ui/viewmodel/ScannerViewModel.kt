@@ -6,7 +6,7 @@ import com.aiphoneguardian.app.domain.model.ScanResult
 import com.aiphoneguardian.app.domain.model.ScanType
 import com.aiphoneguardian.app.domain.model.ThreatItem
 import com.aiphoneguardian.app.domain.model.ThreatLevel
-import com.aiphoneguardian.app.domain.model.ScanRepository
+import com.aiphoneguardian.app.domain.repository.ScanRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.*

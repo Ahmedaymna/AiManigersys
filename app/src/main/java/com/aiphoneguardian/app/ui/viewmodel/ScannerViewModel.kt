@@ -39,8 +39,8 @@ class ScannerViewModel @Inject constructor(
             try {
                 scanRepository.performQuickScan().collect { result ->
                     _scanProgress.value = when {
-                        result.durationMs < 20 -> result.durationMs * 5f
-                        result.durationMs < 50 -> result.durationMs * 2f
+                        result.durationMs < 20 -> result.durationMs.toFloat() * 5f
+                        result.durationMs < 50 -> result.durationMs.toFloat() * 2f
                         else -> result.durationMs.coerceIn(0f, 100f)
                     }
 

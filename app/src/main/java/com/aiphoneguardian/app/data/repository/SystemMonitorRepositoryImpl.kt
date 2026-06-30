@@ -18,7 +18,7 @@ import com.aiphoneguardian.app.domain.model.ConnectionState
 import com.aiphoneguardian.app.domain.model.ConnectionType
 import com.aiphoneguardian.app.domain.model.NetworkConnection
 import com.aiphoneguardian.app.domain.model.NetworkStatus
-import com.aiphoneguardian.app.domain.model.ProcessInfo
+import com.aiphoneguardian.app.domain.repository.ProcessInfo
 import com.aiphoneguardian.app.domain.repository.SystemMonitorRepository
 import com.aiphoneguardian.app.domain.model.SystemStatus
 import dagger.hilt.android.qualifiers.ApplicationContext

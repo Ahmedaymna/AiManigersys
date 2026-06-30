@@ -1,5 +1,7 @@
 package com.aiphoneguardian.app.ui.screens.scanner
 
+import com.aiphoneguardian.app.ui.screens.auth.GlowButton
+
 import androidx.compose.animation.*
 import androidx.compose.animation.core.*
 import androidx.compose.foundation.background

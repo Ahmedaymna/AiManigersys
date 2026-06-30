@@ -68,9 +68,9 @@ class ScannerViewModel @Inject constructor(
             try {
                 scanRepository.performFullScan().collect { result ->
                     _scanProgress.value = when {
-                        result.durationMs < 15 -> result.durationMs * 6f
-                        result.durationMs < 40 -> result.durationMs * 2.5f
-                        else -> result.durationMs.coerceIn(0f, 100f)
+                        result.durationMs < 15 -> result.durationMs.toFloat() * 6f
+                        result.durationMs < 40 -> result.durationMs.toFloat() * 2.5f
+                        else -> result.durationMs.toFloat().coerceIn(0f, 100f)
                     }
 
                     if (result.threats.isNotEmpty()) {

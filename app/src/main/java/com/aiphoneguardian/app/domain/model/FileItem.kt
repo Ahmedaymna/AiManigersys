@@ -34,7 +34,7 @@ enum class FileRiskLevel {
 data class FileAiAnalysis(
     val riskLevel: FileRiskLevel,
     val analysis: String,
-    fileHash: String? = null,
+    val fileHash: String? = null,
     val behaviors: List<String> = emptyList(),
     val timestamp: Long = System.currentTimeMillis()
 )

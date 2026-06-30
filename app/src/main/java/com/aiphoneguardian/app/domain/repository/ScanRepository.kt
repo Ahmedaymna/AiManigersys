@@ -1,5 +1,8 @@
 package com.aiphoneguardian.app.domain.repository
 
+import com.aiphoneguardian.app.domain.model.AiThreatReport
+import com.aiphoneguardian.app.domain.model.ScanResult
+import com.aiphoneguardian.app.domain.model.ThreatItem
 import kotlinx.coroutines.flow.Flow
 
 interface ScanRepository {

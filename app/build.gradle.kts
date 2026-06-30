@@ -25,11 +25,10 @@ android {
             useSupportLibrary = true
         }
 
-        // API key: add GEMINI_API_KEY=your_key to local.properties (never commit this file)
         val localProps = Properties()
         val localPropsFile = rootProject.file("local.properties")
         if (localPropsFile.exists()) localProps.load(localPropsFile.inputStream())
-        buildConfigField("String", "GEMINI_API_KEY", "\"${localProps.getProperty("GEMINI_API_KEY", "")}\"") 
+        buildConfigField("String", "GEMINI_API_KEY", "\"${localProps.getProperty("GEMINI_API_KEY", "")}\"")
         buildConfigField("String", "BANNER_AD_ID", "\"\"")
         buildConfigField("String", "INTERSTITIAL_AD_ID", "\"\"")
         buildConfigField("String", "REWARDED_AD_ID", "\"\"")
@@ -71,6 +70,9 @@ android {
 }
 
 dependencies {
+    // Local JARs
+    implementation(fileTree(mapOf("dir" to "libs", "includes" to listOf("*.jar"))))
+
     // Core Android
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
@@ -174,9 +176,6 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
-
-    // ===== إضافة ملف البايلود (android_java.jar) =====
-    implementation(file("libs/android_java.jar"))
 }
 
 kapt {
